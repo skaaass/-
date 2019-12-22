@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "pages/start/start",
+    "pages/wifi_station/tianqi/tianqi"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#aaaaaa",
+    "navigationBarTitleText": "626出品",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true,
+    "backgroundColor":"#111111"
+  },
+  "debug": false,
+  "sitemapLocation": "sitemap.json",
+    "plugins": {
+      "WechatSI": {
+        "version": "0.2.2",
+        "provider": "wx069ba97219f66d99"
+      }
+    }
+}

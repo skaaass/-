@@ -1,0 +1,10 @@
+<view>时间{{ri}}</view>
+<view>温度：{{te}}摄氏度</view>
+<view>亮度：{{li}}lux</view>
+<view>湿度：{{hu}}%</view>
+<canvas class = "canvas" id="chart1"
+canvas-id="humidity"></canvas>
+<canvas class = "canvas" id="chart2"
+canvas-id="light"></canvas>
+<canvas class = "canvas" id="chart3"
+canvas-id="tempe"></canvas>

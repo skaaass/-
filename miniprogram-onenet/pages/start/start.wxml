@@ -1,0 +1,11 @@
+
+<view class="intro">
+ 我是个正经的小程序
+</view>
+
+<button class="intro" class="btn1" bindtap="navigate">查看设备回传数据</button>
+<view  catchtouchstart="streamRecord"  catchtouchend="endStreamRecord"> 语音识别按钮 </view>
+<view> 语音识别内容：{{currentText}} </view>
+<view> 翻译结果：{{translateText}} </view>
+<button bindtap="openclock2">上传onenet</button>
+<view>{{t}}</view>
